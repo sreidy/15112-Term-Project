@@ -1,0 +1,19 @@
+README
+
+To play the game run the python file titled spyMaze located in the projectFiles 
+folder.  You can use any interpreter, just ruining the file will start the game.  
+
+This is a maze crawling game that has combated added. The goal is to reach the 
+end of the maze. As the user increases the difficulty the size of the maze will
+also increases. Because the maze is recursively generated, every time you play
+it will be a different maze with different events. 
+
+Controls:
+
+            W: forward
+A : left    S: backward     D: Right 
+
+Mouse to aim , click to shoot
+
+Press H any time to bring up help display is game 
+ 

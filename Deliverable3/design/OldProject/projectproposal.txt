@@ -1,0 +1,95 @@
+Sean Reidy
+4/16/2014
+15-112 Term Project Proposal
+
+My project will involve 4 major hardware components   
+    - 3DRobotics Quad dev platform 
+        - adurnio Mega based quad-copter 
+        - can run python scripts using mission planing software
+        
+    - Old Android SmartPhone
+        - Used as an IP camera to get live video from the helicopter
+        
+    - WIFI router
+        - Used to facilitate connection between ground pc and the old smart phone
+          on the copter
+        
+    - (Stretch Goal) Oclus Rift 
+        - Used to overlay copter footage to human 
+        
+My project Will involve 5 packages of software
+    - 3dRobotcs Mission Planing software 
+        - python class to control copter 
+        -  python class description found here
+            -http://copter.ardupilot.com/wiki/common-using-python-scripts-in-mission-planner/
+    - Open CV (vision Tracking )
+    - Tkinter (game aspect )
+    -URLLIB for communication to an old android phone located on a quadcopter 
+    -SimScript   for virtual joystick control
+            -http://code.google.com/p/fscode/wiki/SimScript
+    
+        
+        
+Main Idea:
+    Augment Reality game.
+        - Using the helicopter to provide a birds eye view of the player, the 
+        player will look at pc (or using oclus) and need to physically move to 
+        avoid running into the virtual walls. As the player moves forward in the 
+        physical space, the copter will track the location and move according to 
+        the players motions.
+        
+        
+        More description 
+        
+       -The Maze Game
+            - This will be a portion of my project that is a tkinter oop game, that
+            will have the player moving through a randomly generated maze ( for testing
+            pre written mazes will be used ) the player will be represented by and orange box.
+            Surounding the player is a 100 X 100 pixle large binding box, the player position can move 
+            only within the binding box. When the player is in contact with one of the sides of the 
+            binding box is when the maze walls will move in the opposite direction as the side, to create the 
+            illusion of movement through a maze.
+                  ---top---             top --> maze moves down
+                  -       -             right --> maze move left 
+              left-       -right        left --> maze move Right 
+                  -       -             bottom --> maze move up 
+                  ---------
+                    bottom 
+                    
+            - The background of the maze will be the video from the camera located on the copter 
+            
+        - Camera 
+            - Using openCv and urllib I will use a app to create an ip camera using an old smart phone
+              the player will be underneath the quad copter  will have a bright orange hat on for vision 
+              tracking. the centrer position of the player will be passed into the maze game to draw the position of the player.
+              
+                  ---top---             top --> copter moves forward
+                  -       -             right --> maze move right 
+              left-       -right        left --> maze move left 
+                  -       -             bottom --> maze move backwards  
+                  ---------
+                    bottom 
+              
+        - Copter control 
+            - Using tkinter bindings to simulate a joystick, the copter will use the same 
+            binding box collision as the maze game. 
+            - pressing "i" initializes copter 
+            - pressing space will make the copter take off or land 
+The How:
+    - I will have an Ip camera attached to the quad copter looking directly at the 
+        ground. The copter will fly to a set height, and then look for the player 
+        with a bright orange hat on, where the quad copter will centre itself over the
+        player. As the player moves closer to the edge of the screen the quad copter will move
+        to re-centrer the player under its view. 
+        
+    - The Game:
+        The player is tasked to move through a maze without touching the walls.
+        
+
+BackUp Plan:
+    - If for some reason I cannot get the quad copter or the vision tracking to
+    work my backup plan would be to take the maze game and polish it up add music and submit 
+    just the maze game as my project 
+        
+        
+   

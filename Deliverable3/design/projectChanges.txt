@@ -1,0 +1,23 @@
+Project Changes 
+
+
+Form a quick brose of the OldProject Folder it is easy to see how much my 
+project has changes science its inception. My project originality started as a quad-copter 
+game. that was going to incorporate a 3D robots development platform quad- copter that I 
+spent many hours during the start of the semester building , and 
+Open CV vision tracing. The original vision for the project was to have the helicopter
+provide a birds eye view of the player. The  player will look at pc  and need 
+to physically move to avoid running into the virtual walls. As the player moves 
+forward in the physical space, the copter will track the location and move according to 
+the players motions. 
+
+Progress on this original idea was going well during the first week,I was able to 
+    - Get the Quad copter to respond to RC commands
+    - Was able to interface with wireless video feed with open CV, using 
+      an old android smart phone as an ip- camera 
+
+But after sinking the first 2 weeks into this design I became aware that my data, 
+radio that is comply needed to interface python with the quad copter, was only able, to send 
+packets of information was was unable to revive information packets. I spent the entire 
+weekend of the projects second week troubleshooting the communication. At this point I made a 
+decision to move to plan B, which is the current project I am turning in. 

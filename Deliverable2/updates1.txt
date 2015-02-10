@@ -1,0 +1,13 @@
+Updates to the Project
+
+After leading that the issue with my quadroter is one that would take too much time to fix. 
+I decided to remove it remove from my project. MY new plan is to take the maze generation 
+code that I have, and make a dungeon crawling game. Unfortunately this means That I am slightly behind
+where I wanted to be in my project. But currently I have cell by cell maze scrolling working, and a model system
+That will make it easy to implement a event into the maze. The event could be a puzzle, a key, or an enemy.
+
+
+My working version of my demo is titled demo V2  
+
+
+

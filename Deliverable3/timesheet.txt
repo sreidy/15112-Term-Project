@@ -1,0 +1,63 @@
+Time 
+Sean Reidy
+
+Deliverable 0
+4/8/14 - 3 hours
+4/9/14 - 3 hours 
+Mostly research 
+
+Deliverable 1
+4/10/14 - 5 hours
+    - Working on RC communication to quad copter 
+4/12/14 - 4 hours
+    - Initial flight test of copter( crashed, work on copter came to standstill)
+4/14/14 - 1 hour
+    - Attempts to working with open CV
+4/15/14 - 5 hours 
+    - Wrote basic shell of maze game
+4/16/14 - 3 hours
+    - Got ip camera commutation using urlib and opencv working 
+    
+Deliverable 1 time: 18 hours  
+
+
+
+
+Deliverable 2
+4/18/14 - 4 hours
+    - Troubleshooting quad copter 
+4/19/14 - 4 hours
+    - Troubleshooting quad copter 
+4/20/14 - 4 hours
+    - Troubleshooting quad copter 
+    - Vision tracking 
+4/21/14 - 6 hours
+    - Reworking entire project 
+    - Maze generation and maze display 
+4/22/14 - 6 hours
+    - cell be cell maze scrolling
+    - developing solid model for game to allow for easy implementation of events
+    
+Deliverable 2 time: 24 hours     
+    
+    
+Deliverable 3
+4/23/14 - 3 hours
+    - adding shooting, and smother player moments 
+4/24/14 - 4 hours 
+    - fixing shooting, begin framework for event in maze cell 
+4/25/14 - 3 hours
+    - Adding enemy, trees, and other items
+4/26/14 - 3 hours
+    - Fire effect, and debugging 
+4/28/14 - 2 hours 
+    - user interface
+4/29/14 - 2 hours
+    -help screen 
+4/30/14 - 4 hours 
+    - video and other
+
+
+Deliverable 3 time = 21 hours    
+    
+Total time: 63 hours 

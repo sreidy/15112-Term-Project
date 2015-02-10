@@ -1,0 +1,21 @@
+Time 
+Sean Reidy
+
+Deliverable 0
+4/8/14 - 3 hours
+4/9/14 - 3 hours 
+Mostly research 
+
+Deliverable 1
+4/10/14 - 5 hours
+    - Working on RC communication to quad copter 
+4/12/14 - 4 hours
+    - Initial flight test of copter( crashed, work on copter came to standstill)
+4/14/14 - 1 hour
+    - Attempts to working with open CV
+4/15/14 - 5 hours 
+    - Wrote basic shell of maze game
+4/16/14 - 3 hours
+    - Got ip camera commutation using urlib and opencv working 
+    
+Total time: 18 hours 

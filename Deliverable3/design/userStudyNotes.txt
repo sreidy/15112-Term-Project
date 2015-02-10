@@ -1,0 +1,30 @@
+Notes from user study
+
+During the user study I had four different people test my game I noticed that 
+the issues with my game were that I had a lack of instruction, leading to confused 
+players.  This issue was present in the three of the four individuals tested in the
+ user study. For one test I needed to intervene and explain the game, after she 
+ stayed within the starting cell without moving to the next cell in the maze. 
+
+What Can Be Done:
+- To fix this issue I can add a help screen to the game that would show the 
+games objective, and explain how the wall system works.   
+-  At the start Screen of the game have a side menu that will have a list of 
+controls and game explanation 
+- pressing ?h? in game will bring up a help screen 
+
+
+Another Issue with my project that I noticed when people were using it were that 
+the game itself was too difficult. Because each cell of the maze can have an 
+random number of enemies within itself, it is difficult to control.  Often
+ players would move into the next cell and become overwhelmed by the enemy?s  
+ closing in, instead of attempting to shoot the enemies the players would often
+ just panic and stand still. 
+
+Another issue I found that player often did not know when they were taking damage,
+ and often walk though the fire, loose and then become confused on why they lost .
+
+What Can Be Done:
+- I can make the enemies deal less damage to the player
+- I can make the enemies slower in speed
+- I can add a sound or flash to notify the player that they are taking damage 

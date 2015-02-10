@@ -1,0 +1,70 @@
+Design Description 
+
+Maze Generation:
+The maze is generated using recursion. First it creates an empty two dimensional 
+list given a number or rows and cols. Then it marks a cell as the start cell, 
+this will be used for the recursive call for backtracking. For the recursive 
+aspect, first a list of random directions is generated.For every direction in 
+the list. it will check 2 cell in that direction on the maze. If the  two new
+next cells, starting from the start cell, are neither outside the size of the
+maze or is not already a path, if this passes both test, then that are marked 
+as paths and the the function is called on the new start cell. 
+If it did not pass both test, the function will try a different direction.
+
+The fruition return a 2d list of 0's and 1's, where 0 represent a wall, and 1
+represents a path.
+
+
+
+Game:
+    The game is built using Tkinter, Using many different classes to make the cell
+    by cell moment possible. 
+    
+    Maze Drawing:
+        to draw each cell of the maze, a variation of word search is used to check 
+        the location of walls surrounding the current player cell. it adds the walls
+        to a list and then draw the walls only in the list 
+        
+    Maze Cell moment:
+        If the maze is told to move, the current player cell is set to the cell 
+        in whatever direction the maze was to move.
+
+
+    Player Bound by walls: 
+        Using the same wall searching method used for drawing the maze, to bind 
+        the players in based I used the same wall list, based on the wall lsit
+        I changed how far the player can move to the edge of the window. If a wall is
+        present the player is stomped at the wall size. If a wall is not present 
+        then the player can move to the edge of a window
+        
+    Player Moving from cell to cell 
+        If a wall is not present and the player has reached the edge of a window,
+        The move maze function is called, in the direction of the edge the player
+        has reached. Then the either the player X or Y potion is reset to opposing wall 
+        of their collision to create the illusion of scrolling movement 
+        
+    Events:
+        To allow for events to populate the maze a three dimension list of , of the same 
+        rows and cols of the maze is created . The the maze is filled with events, 
+        using rnadint I generated a random number between 1 and 10 , where each number 
+        cosponsored to a different object( enemy, tree, health), The that newly created event is
+        append to the three dimensional list. Each object has their own draw function , and 
+        parameters , such as current position and dead or alive boolean. Using each of the objects
+        characteristic can draw them on the cell. 
+        
+    Moving events based on maze movement:
+       When drawing all the event currently on screen. The Game class will only draw the events
+       in the current row and col of the player. So when the player triggers a change in the rows 
+       and col of their current position the objects draw on screen change as well. 
+       
+       
+User Interface:
+
+    The user has three choices in difficulty of game, easy, normal, and hard. 
+    The easy game is a 4 x 4 size maze , normal is a 16 x 16 , and hard is a 
+    25 x 24 size maze 
+    
+    Pressing learn to play will display a help screen 
+        
+        
+        

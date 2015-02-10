@@ -1,0 +1,43 @@
+Competitive Analysis
+Sean Reidy
+
+VR Quad Copter:
+    http://hackaday.com/2013/05/13/gopro-hack-delivers-live-video-feed-for-piloting-your-quadcopter/
+    - Wireless video transfer using broadcast equipment allows for greate 
+      range
+    
+    
+    - Anti-Features
+        - Wireless video rig requires second external batteries
+        - Broadcast equipment very expensive 
+        - Does not use video as a web cam but rather as just a video stream 
+        - Go Pro camera expensive 
+        
+        
+AR Drone:
+    This is a off the shelf wi-fi controlled quadcpter that has two built in 
+    webcams. The copter can be controlled with IOS and Android smart devices.
+    The quad copter uses its built in web cams to playe games, It can also track 
+    the location of players who are wearing bright orange and yellow hats.
+    
+    - Anti features
+        - Battery life short and flight time is limited 
+        - VERY EXPENSIVE 
+        - can not hold much weight other than itself
+        - Software is not compatible with Python 
+        
+DIY Follow Me Drone 
+    http://spectrum.ieee.org/geek-life/hands-on/the-diy-kidtracking-drone
+    This is a project used the same Control board that I plan to use for the project 
+    This project also uses the same on ground software Mission Planer that I want 
+    to use .
+    Want to mimic the same type of control with the quad copter using a ground
+    PC to communicate with the quad copter.
+
+    Note:
+        the creator eventually called that this project is cool but impractical
+        due to the 10M inaccuracy of the GPS data 
+    - Anti- Features
+        - Does not use vision tracking instead uses GPS data to track location of 
+        human player, GPS too complicated for my term project goals 
+        - GPS inaccurate 
